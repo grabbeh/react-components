@@ -1,9 +1,9 @@
 Basic example:
 
 ```js { "props": { "style": { "transform": "translate3d(0, 0, 0)" } } }
-import Link from 'zopa-react-components/components/atoms/Link/Link';
-import Hamburger from 'zopa-react-components/components/icons/Hamburger/Hamburger';
-import Profile from 'zopa-react-components/components/icons/Profile/Profile';
+import Link from '@zopauk/react-components/components/atoms/Link/Link';
+import Hamburger from '@zopauk/react-components/components/icons/Hamburger/Hamburger';
+import Profile from '@zopauk/react-components/components/icons/Profile/Profile';
 
 <Navbar.Layout
   backgroundColor="#00B9A7"
@@ -53,9 +53,9 @@ import Profile from 'zopa-react-components/components/icons/Profile/Profile';
 Responsive Navbar example:
 
 ```js { "props": { "style": { "transform": "translate3d(0, 0, 0)" } } }
-import Hamburger from 'zopa-react-components/components/icons/Hamburger/Hamburger';
-import Link from 'zopa-react-components/components/atoms/Link/Link';
-import FlexCol from 'zopa-react-components/components/layout/FlexCol/FlexCol';
+import Hamburger from '@zopauk/react-components/components/icons/Hamburger/Hamburger';
+import Link from '@zopauk/react-components/components/atoms/Link/Link';
+import FlexCol from '@zopauk/react-components/components/layout/FlexCol/FlexCol';
 
 class ResponsiveNavbar extends React.Component {
   constructor(props) {

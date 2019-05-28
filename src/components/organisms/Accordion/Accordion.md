@@ -4,7 +4,7 @@ you should use these components along with `useAccordion` hook. It is done this 
 Basic example:
 
 ```js
-import useAccordion from 'zopa-react-components/components/hooks/useAccordion/useAccordion';
+import useAccordion from '@zopauk/react-components/components/hooks/useAccordion/useAccordion';
 
 const AccordionExample = () => {
   const { getHeaderProps, getSectionProps, isActiveSection } = useAccordion();

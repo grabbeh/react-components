@@ -3,7 +3,7 @@ This is a Accordion subcomponent and it is meant to be used along with other com
 Opened Accordion.Header
 
 ```js
-import Accordion from 'zopa-react-components/components/organisms/Accordion/Accordion';
+import Accordion from '@zopauk/react-components/components/organisms/Accordion/Accordion';
 
 <Accordion.Header isOpen={true}>opened accordion header</Accordion.Header>;
 ```
@@ -11,7 +11,7 @@ import Accordion from 'zopa-react-components/components/organisms/Accordion/Acco
 Closed Accordion.Header
 
 ```js
-import Accordion from 'zopa-react-components/components/organisms/Accordion/Accordion';
+import Accordion from '@zopauk/react-components/components/organisms/Accordion/Accordion';
 
 <Accordion.Header isOpen={false}>closed accordion header</Accordion.Header>;
 ```

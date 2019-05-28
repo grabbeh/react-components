@@ -1,7 +1,7 @@
 Styled AlertBox component
 
 ```js
-import Link from 'zopa-react-components/components/atoms/Link/Link';
+import Link from '@zopauk/react-components/components/atoms/Link/Link';
 
 <AlertBox style={{ width: '650px' }}>
   <p>

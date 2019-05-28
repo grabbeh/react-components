@@ -18,7 +18,7 @@ A card that is meant to be clickable and respond to user interactions (hover eff
 Cards of type `"linkCard"` are meant to be used to build components that interact with user actions.
 
 ```js
-import Header3 from 'zopa-react-components/components/typography/Header3/Header3';
+import Header3 from '@zopauk/react-components/components/typography/Header3/Header3';
 
 <div style={{ cursor: 'pointer' }} onClick={() => alert("You're a winner!")}>
   <Card borderColor={colors.primary.blue500} backgroundColor={colors.primary.teal600} type="linkCard">

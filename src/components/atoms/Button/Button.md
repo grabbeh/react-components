@@ -93,7 +93,7 @@ For when the link style just won't work.
 Can be used with arrows, among other icons.
 
 ```jsx
-import Alert from 'zopa-react-components/components/icons/Alert/Alert';
+import Alert from '@zopauk/react-components/components/icons/Alert/Alert';
 
 <Button rightIcon={<Alert fillColor="#fff" />}>Learn more</Button>;
 ```
@@ -103,7 +103,7 @@ import Alert from 'zopa-react-components/components/icons/Alert/Alert';
 For when the icon conveys the meaning faster than text.
 
 ```jsx
-import Alert from 'zopa-react-components/components/icons/Alert/Alert';
+import Alert from '@zopauk/react-components/components/icons/Alert/Alert';
 
 <Button leftIcon={<Alert fillColor="#fff" />}>Smash now</Button>;
 ```
